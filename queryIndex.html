@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>header</title>
+    </head>
+    <body>
+            <ul id="list">
+            <li>APple</li>
+            <li>Ugly</li>
+            <li>bad</li>
+            </ul>
+    </body>
+    <script>
+       const one = document.createElement('li');
+       one.innerText='sanju';
+       const two = document.getElementById('list');
+       two.insertBefore(one,two.children[0]);
+
+    </script>
+</html>

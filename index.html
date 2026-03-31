@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Learning JS</title>
+        <script>
+            console.log(window);
+            console.dir(document);
+        </script>
+    </head>
+    <body>
+        <h1>heading</h1>
+        <p id="one">hrello</p>
+        <h2>Avira</h2>
+        <button id="two">Back</button>
+         <script>
+            console.log('title log',document.head.children[0].innerText);
+            document.head.children[0].innerText = 'Leaning JS Using DOM';
+            console.log('body tag ',document.body.children[2].innerHTML);
+            document.body.children[2].innerHTML='<h1>Avira,Aadhya</h1>';
+            //console.dir('title dir',document.head.children[1]);
+           var para = document.getElementById("one");
+           console.log(para);
+           console.dir(para);
+           console.log(para.textContent);
+            let val = document.getElementById("two");
+            console.log(val);
+            val.addEventListener("click",()=>{
+             // history.back;
+              window.alert('button clicked');
+            });
+            // let ids = setInterval(()=>{
+            //     window.location.href="http://127.0.0.1:5500/index.html";
+            // },2000);
+            // clearInterval(ids);
+            let outs = setTimeout(()=>{
+                console.log("hello");
+            },2000);
+            clearTimeout(outs);
+         </script>
+    </body>
+</html>

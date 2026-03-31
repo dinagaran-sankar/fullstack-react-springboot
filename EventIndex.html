@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Learning DOM</title>
+        <script>
+          document.removeEventListener('DOMContentLoaded',()=>{
+           var app =  document.getElementById('one');
+           //console.log(app);
+           var two = app.children[0];
+          // console.log(two);
+           var imag = app.children[1];
+           console.log(imag.offsetWidth,imag.offsetHeight);
+           var chn = app.innerHTML=`<h1>Latest Js Changes !!!!!<h1>`;
+            //console.log(chn);
+          });
+          window.addEventListener('load',()=>{
+           var app =  document.getElementById('one');
+           //console.log(app);
+           var two = app.children[0];
+          // console.log(two);
+           var imag = app.children[1];
+           console.log(imag.offsetWidth,imag.offsetHeight);
+           var chn = app.innerHTML=`<h1>Latest Js Changes !!!!!<h1>`;
+            //console.log(chn);
+          });
+        </script>
+    </head>
+    <body>
+        <div id ='one'>
+            <h1> learning js</h1>
+            <img src="https://wallpaperaccess.com/full/5654291.jpg" alt="santa"/>
+        </div>
+    </body>
+</html>
