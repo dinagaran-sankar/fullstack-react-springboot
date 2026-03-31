@@ -1,0 +1,74 @@
+2026-03-25T00:13:42.418+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] c.d.p.s.e.ECommerceStickersApplication   : Starting ECommerceStickersApplication using Java 17.0.18 with PID 25588 (C:\Users\10853596\IdeaProjects\E-Commerce-Stickers\target\classes started by 10853596 in C:\Users\10853596\IdeaProjects\E-Commerce-Stickers)
+2026-03-25T00:13:42.418+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] c.d.p.s.e.ECommerceStickersApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T00:13:42.534+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T00:13:42.542+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2026-03-25T00:13:42.599+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-25T00:13:42.600+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-25T00:13:42.600+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-25T00:13:42.614+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 195 ms
+2026-03-25T00:13:42.657+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25T00:13:42.672+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T00:13:42.673+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-03-25T00:13:42.714+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn34: url=jdbc:h2:file:~/stickerShop user=SA
+2026-03-25T00:13:42.714+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-03-25T00:13:42.716+05:30  WARN 25588 --- [E-Commerce-Stickers] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-25T00:13:42.716+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:~/stickerShop]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: STICKERSHOP/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T00:13:42.751+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T00:13:42.753+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T00:13:42.795+05:30  WARN 25588 --- [E-Commerce-Stickers] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25T00:13:42.901+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/stickerShop'
+2026-03-25T00:13:42.917+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/E-Commerce-Stickers/actuator'
+2026-03-25T00:13:42.933+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-25T00:13:42.936+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] c.d.p.s.e.ECommerceStickersApplication   : Started ECommerceStickersApplication in 0.549 seconds (process running for 140.347)
+2026-03-25T00:13:42.940+05:30  INFO 25588 --- [E-Commerce-Stickers] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name C:/Users/10853596/Desktop/React-Spring Boot/Section 6/E-Commerce-Stickers/log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-03-25T00:14:03.597+05:30  INFO 25588 --- [E-Commerce-Stickers] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-25T00:14:03.599+05:30  INFO 25588 --- [E-Commerce-Stickers] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-25T00:14:03.773+05:30  INFO 25588 --- [E-Commerce-Stickers] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-25T00:14:03.776+05:30  INFO 25588 --- [E-Commerce-Stickers] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T00:14:03.776+05:30  INFO 25588 --- [E-Commerce-Stickers] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-03-25T00:14:03.840+05:30  INFO 25588 --- [E-Commerce-Stickers] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
