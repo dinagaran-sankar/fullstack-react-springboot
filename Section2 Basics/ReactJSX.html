@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>I am a super heading</h1>
+    <div id="root">
+      <h2>Hello, I am child of Root</h2>
+    </div>
+    <h1>I am a super footer</h1>
+         <script src="./react-lib/react.development.js"></script> 
+     <!-- use only web app and mobile app -->
+    <script src="./react-lib/react-dom.development.js"></script> 
+    <script>
+    <!-- convert into react jsx model -->
+     const nestedElement = (
+     <div id="root">
+         <div id="parent">
+            <div id="child">
+                   <h1 style={{ color: 'blue' }} >Senior Software engineer</h1>
+                  <h2>My id is 10853596</h2>
+            </div>
+            <div id="child-2">
+                 <h1 style ={{ color:  'red'}}>Working in LTM</h1>
+                  <h2>As a Senior Software Engineer</h2>
+            </div>
+         </div>
+     </div>
+     );
+
+      const rootElement =    ReactDOM.createRoot(document.getElementById("root"));
+      rootElement.render([nestedElement]);
+</script>
+</body>
+</html>

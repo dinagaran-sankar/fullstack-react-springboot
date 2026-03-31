@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #root h1{
+            color: red;
+            font-size: xx-large;
+        }
+        /* #root h2{
+            color: green;
+            font-size: x-large;
+        } */
+    </style>
+</head>
+<body>
+    <div id="root">
+    </div>
+        <!-- react library -->
+     <script src="./react-lib/react.development.js"></script> 
+     <!-- use only web app and mobile app -->
+    <script src="./react-lib/react-dom.development.js"></script> 
+    <!-- use only web app -->
+    <script>
+    const randomNumber = Math.floor(Math.random()*100)+1;
+
+    //const headerElement = document.createElement('h1');
+    const headerElement = React.createElement('h1',null,`Generated Number: ${ randomNumber}`);
+
+    const nextElement = React.createElement('h3',{style:{color: "blue"}},'Yellagiri Ride');
+
+    const resultElement = React.createElement('h2',{style:{ color: "green",fontSize: "x-large"}},randomNumber%2==0 ? 
+    'The Number is Even' : 'The Number is Odd');
+
+    //  const rootElement = document.getElementById('root');
+    //  rootElement.appendChild(headerElement);
+    //  rootElement.appendChild(resultElement);
+
+    const rootElement =  ReactDOM.createRoot(document.getElementById('root'));
+    //rootElement.render([headerElement,resultElement]);
+    //rootElement.render(React.createElement('div',null,[headerElement,resultElement]));
+       rootElement.render(React.createElement('div',{id: "child-root"},[headerElement,resultElement,nextElement]));//assign <div id='child-root'> like this
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nelli-500: oklch(0.72 0.11 178);
+  --font-nelli: Poppins, sans-serif;
+}
