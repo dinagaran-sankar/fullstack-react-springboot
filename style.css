@@ -1,0 +1,106 @@
+/* .one{
+   color: blue;
+}
+#two{
+  color: black;
+}
+p{
+  color: red;
+}
+
+h1.center{
+  background-color: bisque;
+  color: blue;
+}
+p.center{
+  background-color: aquamarine;
+  color: blueviolet;
+}
+h1,h2,p{
+  background-color: aqua;
+  color: brown;
+}
+pre{
+  background-color: hsl(0, 25%,70%);
+  /* hue, saturation, and lightness. */
+  /* color: rgb(12,0,240)
+} */
+/* h3{
+  background-color: rgba(0,78,23, 0.2);
+  /* red,green,blue,opacity:  for transparency; */
+  /* color: rgb(40,12, 234); */
+/* } */
+/* body{
+    /* background-image: url("images/img_girl.jpg");
+    background-repeat: repeat; */
+    /* background-position: right,bottom; */
+    /* background-position: 30%,50%;*/
+    /* background-position: 100px,250px; */
+    /* background-attachment: scroll;/ */
+    /*fixed*/ 
+    /* background-size: contain; */
+    /*contain,cover,auto */
+    /* in simple forms we can write */
+    background: url("images/img_girl.jpg") repeat right top / cover scroll ;
+} */
+.immhh{
+  background-color: aquamarine;
+  color: red;
+}
+.solid{
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: brown;
+}
+.dashed{
+  border-style: dashed;
+  border-radius: 6px;
+  border-width: 5px;
+  border-color: black;
+}
+.dotted{
+  border-style: dotted;
+  border-radius: 6px;
+  border-width: 5px;
+  border-color: red;
+}
+.double{
+  border-style: double;
+  border-radius: 6px;
+  border-width: 5px;
+  border-color: blue;
+}
+.groove{
+  border-style: groove;
+  border-radius: 2px;
+  border-width: 5px;
+  border-color: steelblue;
+}
+.inset{
+  border-style: inset;
+  border-radius: 2px;
+  border-width: 5px;
+  border-color: grey;
+}
+.outset{
+  /* border-style: outset;
+  border-radius: 2px;
+  border-width: 5px;
+  border-color: mediumseagreen; */
+  border: 5px solid mediumseagreen;
+  border-radius: 2px;
+}
+
+h4{
+  text-align: center;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-decoration-color: brown;
+  text-decoration-thickness: inherit;
+}
+h5{
+  letter-spacing: 5px;
+  word-spacing: 10%;
+  white-space: inherit;
+}

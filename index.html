@@ -1,0 +1,114 @@
+<!DOCTYPE html><!-- declaration represents the document type,
+ and helps browsers to display web pages correctly. -->
+<html lang="en">
+    <!-- You should always include the lang attribute inside the <html> tag,
+     to declare the language of the Web page. 
+    This is meant to assist search engines and browsers. -->
+   <head>
+     <title>practice</title>
+     <link rel="stylesheet" href="style.css">
+     <!-- Specify a default URL and a default target for all links on a page: -->
+      <!-- images we are taken from below url  -->
+     <!-- <base href="https://www.w3schools.com/" title="_blank"></base> -->
+     <!-- The <meta> element is typically used to specify the character set, page description, 
+     keywords, author of the document, and viewport settings.
+     The metadata will not be displayed on the page, but is used by browsers 
+     (how to display content or reload page),
+     by search engines (keywords), and other web services. -->
+     <!-- <meta charset="UTF-8"> -->
+      <!-- HTML is used to specify the character encoding for the HTML document. 
+      This tag ensures that the browser correctly interprets the characters and 
+      symbols on the webpage, 
+      which is crucial for displaying text in various languages and symbols accurately. -->
+     <!-- Essential for mobile-friendly websites. -->
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <!-- Description (SEO) Displayed under your page title in Google search -->
+     <!-- <meta name="Description" content="This is demo websites"> -->
+     <!--Author name display-->
+     <!-- <meta name="--Author" content="Dinagaran Sankar"> -->
+     <!-- This redirects the user after 5 seconds. -->
+     <!-- <meta http-equiv="refresh" content="5; url=https://google.com"> -->
+</head>
+<!--<style>
+    .one{
+     color:red;
+    }
+    #two{
+color:blue;
+    }
+    p{
+    color:red;
+}
+</style>-->
+<body>
+<h1 class="one">heading</h1>
+<h1 id ="two">practice</h1>
+<h2 style="color:grey;">practice</h2>
+
+<a href="https://www.google.com/">google.com</a>
+<hr>
+</br></br>
+<p>The HTML  element defines preformatted text.
+The text inside a element is displayed in a fixed-width font (usually Courier),
+and it preserves both spaces and line breaks:
+and 
+<time>11.10</time> 
+</p>
+<pre>
+The HTML  element defines preformatted text.
+The text inside a element is displayed in a fixed-width font (usually Courier),
+and it preserves both spaces and line breaks:
+</pre>
+<!-- The <datalist> element specifies a list of pre-defined options for an <input> element.
+Users will see a drop-down list of the pre-defined options as they input data. -->
+<input list="browsers" id="nameOfBrowsers" name="browsersOptions">
+<datalist id="browsers">
+     <option value="edge"></option>
+     <option value="chrome"></option>
+     <option value="safari"></option>
+     <option value="opera"></option>
+     <option value="brave"></option>
+     <option value="mozilla"></option>
+</datalist>
+</input>
+ <!-- input attributes -->
+  <!-- <input value=""/><input max=""/><input maxlength=""/><input size=""/>  <input placeholder=""/>
+  <input min=""/><input readonly,disabled,multiple,required/><input pattern="[A-Za-z]{3}" />
+  <input autocomplete="on"/> <input autofocus="on"> <input autocorrect="on"> -->
+   <!-- form attributes -->
+    <!-- enctype attribute specifies how the form-data should be encoded when submitting it to the server.
+Note: The enctype attribute can be used only if method="post". -->
+    <!-- <form action="" novalidate,autocomplete,method,enctype="multipart/form-data"></form>
+    1.application/x-www-form-urlencoded	Default. All characters are encoded before sent 
+    (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)
+    2.multipart/form-data Required when your form includes file uploads.
+       Ensures the browser sends files as binary data instead of plain text.
+       <input type="file">Lets the user select a file from their device.
+       The accept attribute restricts file types (optional).
+    3.text/plain	Sends data without any encoding at all. Not recommended -->
+
+  
+
+
+
+<img src="img_girl.jpg" alt="Girl with a Jacket" width="500px" height="500px">
+<!-- alt tag required alt attribute for the <img> tag specifies an alternate text for an image, 
+if the image for some reason cannot be displayed. This can be due to a slow connection, 
+or an error in the src attribute, or if the user uses a screen reader. -->
+<!--Relative URL   /images/img_girl.jpg-->
+<!--absolute URL   https://www.w3schools.com/images/img_girl.jpg
+Links to an external image that is hosted on another website. -->
+<!-- <noscript>JavaScript is disabled in ur browser please enabled it for the best experience</noscript> -->
+<!-- HTML iframe is used to display a web page within a web page. -->
+<br>
+<iframe src="Main.html" 
+title=" laptop learning" 
+style="width: fit-content;height: max-content;background-color: chocolate;">
+
+</iframe>
+</body>
+</html>
+<!-- HTML headings are defined with the <h1> to <h6> tags. -->
+<!-- Use <noscript> for critical fallback content only.
+Avoid placing large amounts of duplicate content inside <noscript> (can affect SEO).
+Always test with JavaScript disabled to ensure fallback works. -->

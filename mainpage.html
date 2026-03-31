@@ -1,0 +1,39 @@
+<style>
+    .one{
+        background-color: red;
+        height: 100px;
+        width:200px;
+        margin: 5px;
+        position: static ;
+        /* default */
+    }
+    .two{
+        background-color: black;
+        height: 100px;
+        width:200px;
+        margin: 5px;
+        position: relative;
+        left: 50px;
+        top: 50px;
+        z-index: 2;
+    }
+    .three{
+        background-color: green;
+        height: 100px;
+        width:200px;
+        margin: 5px;
+        position: relative;
+        z-index: 1;
+    }
+    </style>
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<!-- position - CSS positioning is about controlling the placement of elements within a web page.
+With CSS positioning, you can override the normal document flow. -->
+<!-- static - top left bottom we cannot use  is always positioned according 
+to the normal flow of the page:
+relative - Setting the top, right, bottom, and 
+left properties will cause the element to be adjusted away from its normal position.
+absolute -  -->
+<!-- z index prefrence wise it will exceute  -->
